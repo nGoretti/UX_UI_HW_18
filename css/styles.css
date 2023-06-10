@@ -1,0 +1,75 @@
+/* Coding the Navbar CSS
+*/
+.inline-block{
+    display:inline-block;
+    vertical-align:top;
+}
+
+.logo{
+    width: 27%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav{
+    text-align: right;
+    width: 68%;
+    padding: 1%
+}
+
+nav ul{
+    float:right;
+    width: 50%;
+    margin-left: auto;
+}
+nav li{
+    float: center;
+    padding: 5px 15px;
+}
+
+/* Coding the Hero image CSS*/
+.heroImg{
+    height: 500px;
+    padding: 25px;
+}
+
+.content{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imgSize{
+    height: 300px;
+}
+
+/*Coding the Footer CSS*/
+
+footer{
+    text-align: center;
+    background-color: #373738;
+    /*background-color: white;*/
+    padding: 30px;
+    position:relative;
+}
+footer ul{
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align:top;
+}
+
+footer li{
+    float: center;
+    padding: 5px 15px;
+}
+
+/*Adding fonts to li and p elements */
+li, p{
+    font-family: Arial;
+}
+
+/*Adding background color to the header*/
+.navigation{
+    background-color:373738;
+}
